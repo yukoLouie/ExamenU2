@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/grupo1"
+        android:contentDescription="Imagen Representativa" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Detalles"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E35B6F"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:paddingVertical="4dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Globos"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E35B6F"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:paddingVertical="4dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Peluches"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E35B6F"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:paddingVertical="4dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Regalos"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E35B6F"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:paddingVertical="4dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Tazas"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E35B6F"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:paddingVertical="4dp" />
+
+</LinearLayout>
